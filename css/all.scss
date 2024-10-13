@@ -1,1 +1,17 @@
+@import "../node_modules/bootstrap/scss/functions";
+@import "./helpers/variables";
+@import "./helpers/variables-dark";
+
+
+
 @import "../node_modules/bootstrap/scss/bootstrap";
+
+
+
+
+#navbar-example2{
+    position: sticky;
+    top: 0px; /* 控制距離 */
+    z-index: 1000; /* 確保固定後 tab 在最上層 */
+    background-color: white; /* 滾動後依然保持背景色 */
+}
